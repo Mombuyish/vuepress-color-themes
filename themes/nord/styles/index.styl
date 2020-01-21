@@ -1,0 +1,58 @@
+html, body {
+    background-color: $bgColor  
+}
+
+.navbar {
+    background-color: $bgColor
+}
+
+.navbar .links {
+    background-color: $bgColor !important
+}
+
+.sidebar {
+    background-color: $bgColor    
+}
+
+.search-box input {
+    background-color: $darkBgColor !important    
+}
+
+th, td
+  border 1px solid #434C5E
+  background-color: $darkBgColor
+
+.custom-block
+  &.tip
+    background-color $darkBgColor
+    border-color $tipColor
+    color $textColor
+    a
+      color $tipColor
+    .custom-block-title
+      color darken($tipColor, 25%)
+  &.warning
+    background-color $darkBgColor
+    border-color $warningColor
+    color $textColor
+    a
+      color $warningColor
+    .custom-block-title
+      color darken($warningColor, 25%)
+  &.danger
+    background-color $darkBgColor
+    border-color $dangerColor
+    color $textColor
+    a
+      color $dangerColor
+    .custom-block-title
+      color darken($dangerColor, 25%)
+
+blockquote {
+  color $textColor
+  border-color $accentColor
+}
+
+kbd {
+  background-color: transparent
+}
